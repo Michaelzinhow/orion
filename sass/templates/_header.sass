@@ -1,6 +1,16 @@
 body
 	> header
 		padding: 25px 0
+		> .content
+			+make-row
+			> .logo-container
+				+make-md-column(3)
+				> .logo-container__logo
+					+make-md-column(10)
+
+			> .search-container
+				+make-md-column(4)
+				+make-md-column-offset(5)
 		input.form-control
 			height: 45px
 			font: 14px $font_main
