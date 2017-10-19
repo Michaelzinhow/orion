@@ -7,14 +7,50 @@ body
 				+make-md-column(3)
 				> .logo-container__logo
 					+make-md-column(10)
+					+make-xs-column(8)
+					+make-md-column-offset(2)
 
 			> .search-container
 				+make-md-column(4)
 				+make-md-column-offset(5)
-		input.form-control
-			height: 45px
-			font: 14px $font_main
-			font-style: italic
-			color: #CCCCCC
-			margin-top: 7px
-			border: 1px solid #DDDDDD
+				input.search-container__input.form-control
+					height: 45px
+					font: 14px $font_main
+					font-style: italic
+					color: #CCCCCC
+					margin-top: 7px
+					border: 1px solid #DDDDDD
+
+
+	
+
+	> #navegacao
+		background: #D0161A
+		> .container
+			> #navegacao__content
+				+make-md-column(12)
+				.navbar
+					border-radius: 0
+					box-shadow: none
+					border: none
+					background: #D0161A
+					margin-bottom: 0
+					.navbar-collapse
+						border: none
+						> ul.navbar-nav
+							> li
+								&.active
+									> a
+										background: #882022
+
+
+								a
+									color: #ffffff
+									font: bold 15px $font_main
+									&:hover
+										background: #882022
+
+
+
+
+

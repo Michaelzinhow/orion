@@ -21,11 +21,20 @@ body > header {
         position: relative;
         min-height: 1px;
         padding-left: 15px;
+        padding-right: 15px;
+        position: relative;
+        float: left;
+        width: 66.6666666667%;
+        min-height: 1px;
+        padding-left: 15px;
         padding-right: 15px; }
         @media (min-width: 992px) {
           body > header > .content > .logo-container > .logo-container__logo {
             float: left;
             width: 83.3333333333%; } }
+        @media (min-width: 992px) {
+          body > header > .content > .logo-container > .logo-container__logo {
+            margin-left: 16.6666666667%; } }
     body > header > .content > .search-container {
       position: relative;
       min-height: 1px;
@@ -38,12 +47,38 @@ body > header {
       @media (min-width: 992px) {
         body > header > .content > .search-container {
           margin-left: 41.6666666667%; } }
-  body > header input.form-control {
-    height: 45px;
-    font: 14px "Oxygen";
-    font-style: italic;
-    color: #CCCCCC;
-    margin-top: 7px;
-    border: 1px solid #DDDDDD; }
+      body > header > .content > .search-container input.search-container__input.form-control {
+        height: 45px;
+        font: 14px "Oxygen";
+        font-style: italic;
+        color: #CCCCCC;
+        margin-top: 7px;
+        border: 1px solid #DDDDDD; }
+body > #navegacao {
+  background: #D0161A; }
+  body > #navegacao > .container > #navegacao__content {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    @media (min-width: 992px) {
+      body > #navegacao > .container > #navegacao__content {
+        float: left;
+        width: 100%; } }
+    body > #navegacao > .container > #navegacao__content .navbar {
+      border-radius: 0;
+      box-shadow: none;
+      border: none;
+      background: #D0161A;
+      margin-bottom: 0; }
+      body > #navegacao > .container > #navegacao__content .navbar .navbar-collapse {
+        border: none; }
+        body > #navegacao > .container > #navegacao__content .navbar .navbar-collapse > ul.navbar-nav > li.active > a {
+          background: #882022; }
+        body > #navegacao > .container > #navegacao__content .navbar .navbar-collapse > ul.navbar-nav > li a {
+          color: #ffffff;
+          font: bold 15px "Oxygen"; }
+          body > #navegacao > .container > #navegacao__content .navbar .navbar-collapse > ul.navbar-nav > li a:hover {
+            background: #882022; }
 
 /*# sourceMappingURL=style.css.map */
