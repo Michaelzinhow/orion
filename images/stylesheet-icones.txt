@@ -1,0 +1,113 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-devianart_dark {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -5px;
+}
+
+.sprite-deviantart_active {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -47px;
+}
+
+.sprite-facebook_active {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -89px;
+}
+
+.sprite-facebook_dark {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -131px;
+}
+
+.sprite-flickr_active {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -173px;
+}
+
+.sprite-flickr_dark {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -215px;
+}
+
+.sprite-google_active {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -257px;
+}
+
+.sprite-google_dark {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -299px;
+}
+
+.sprite-rss_active {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -341px;
+}
+
+.sprite-rss_dark {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -383px;
+}
+
+.sprite-share_active {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -425px;
+}
+
+.sprite-share_dark {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -467px;
+}
+
+.sprite-twitter_active {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -509px;
+}
+
+.sprite-twitter_dark {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -551px;
+}
+
+.sprite-vimeo_active {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -593px;
+}
+
+.sprite-vimeo_dark {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -635px;
+}
+
+.sprite-youtube_active {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -677px;
+}
+
+.sprite-youtube_dark {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -719px;
+}

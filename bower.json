@@ -1,0 +1,22 @@
+{
+  "name": "Orion",
+  "authors": [
+    "Michael <mnpa1984@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "bootstrap-sass": "^3.3.7"
+  }
+}

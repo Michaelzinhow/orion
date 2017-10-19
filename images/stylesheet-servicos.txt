@@ -1,0 +1,53 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-camera {
+    width: 70px;
+    height: 52px;
+    background-position: -5px -5px;
+}
+
+.sprite-camera-hover {
+    width: 70px;
+    height: 52px;
+    background-position: -5px -67px;
+}
+
+.sprite-config {
+    width: 70px;
+    height: 70px;
+    background-position: -5px -129px;
+}
+
+.sprite-config-hover {
+    width: 70px;
+    height: 70px;
+    background-position: -5px -209px;
+}
+
+.sprite-imagem {
+    width: 70px;
+    height: 66px;
+    background-position: -5px -289px;
+}
+
+.sprite-imagem-hover {
+    width: 70px;
+    height: 66px;
+    background-position: -5px -365px;
+}
+
+.sprite-pc {
+    width: 70px;
+    height: 62px;
+    background-position: -5px -441px;
+}
+
+.sprite-pc-hover {
+    width: 70px;
+    height: 62px;
+    background-position: -5px -513px;
+}
