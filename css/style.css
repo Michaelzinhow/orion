@@ -10,40 +10,57 @@ body > header {
       clear: both; }
     body > header > .content > .logo-container {
       position: relative;
+      float: left;
+      width: 100%;
+      min-height: 1px;
+      padding-left: 15px;
+      padding-right: 15px;
+      position: relative;
+      min-height: 1px;
+      padding-left: 15px;
+      padding-right: 15px;
+      position: relative;
       min-height: 1px;
       padding-left: 15px;
       padding-right: 15px; }
+      @media (min-width: 768px) {
+        body > header > .content > .logo-container {
+          float: left;
+          width: 33.3333333333%; } }
       @media (min-width: 992px) {
         body > header > .content > .logo-container {
           float: left;
           width: 25%; } }
       body > header > .content > .logo-container > .logo-container__logo {
-        position: relative;
-        min-height: 1px;
-        padding-left: 15px;
-        padding-right: 15px;
-        position: relative;
-        float: left;
-        width: 66.6666666667%;
-        min-height: 1px;
-        padding-left: 15px;
-        padding-right: 15px; }
-        @media (min-width: 992px) {
-          body > header > .content > .logo-container > .logo-container__logo {
-            float: left;
-            width: 83.3333333333%; } }
-        @media (min-width: 992px) {
-          body > header > .content > .logo-container > .logo-container__logo {
-            margin-left: 16.6666666667%; } }
+        width: 80%;
+        margin-left: 20%; }
     body > header > .content > .search-container {
+      position: relative;
+      float: left;
+      width: 100%;
+      min-height: 1px;
+      padding-left: 15px;
+      padding-right: 15px;
       position: relative;
       min-height: 1px;
       padding-left: 15px;
-      padding-right: 15px; }
+      padding-right: 15px;
+      position: relative;
+      min-height: 1px;
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-left: 0%; }
+      @media (min-width: 768px) {
+        body > header > .content > .search-container {
+          float: left;
+          width: 33.3333333333%; } }
       @media (min-width: 992px) {
         body > header > .content > .search-container {
           float: left;
           width: 33.3333333333%; } }
+      @media (min-width: 768px) {
+        body > header > .content > .search-container {
+          margin-left: 33.3333333333%; } }
       @media (min-width: 992px) {
         body > header > .content > .search-container {
           margin-left: 41.6666666667%; } }
