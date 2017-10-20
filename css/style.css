@@ -37,7 +37,7 @@ a {
       top: 0;
       left: 0; }
 
-.sprite_servicos, #servicos > #servicos__itens > .servicos__item > a > span {
+.sprite_servicos, #servicos > #servicos__itens > .servicos__item > a > span.icon {
   background-image: url("../images/sprites-servicos.png");
   background-repeat: no-repeat; }
 
@@ -172,54 +172,65 @@ body > #navegacao {
     display: block;
     height: 150px;
     width: 100%;
-    text-align: center; }
-    #servicos > #servicos__itens > .servicos__item > a > span {
+    text-align: center;
+    position: relative; }
+    #servicos > #servicos__itens > .servicos__item > a > span.title {
+      color: #fff;
+      font: 26px "Oxygen";
+      position: absolute;
+      width: 100%;
+      text-align: center;
+      bottom: 24px;
+      display: none; }
+    #servicos > #servicos__itens > .servicos__item > a:hover > span.title {
+      display: block; }
+    #servicos > #servicos__itens > .servicos__item > a > span.icon {
       display: inline-block;
       position: relative;
       transition: top 0.5s linear; }
-      #servicos > #servicos__itens > .servicos__item > a > span.config {
+      #servicos > #servicos__itens > .servicos__item > a > span.icon.icon--config {
         width: 70px;
         height: 70px;
         background-position-x: -5px;
         background-position-y: -129px;
         top: 40px; }
-      #servicos > #servicos__itens > .servicos__item > a > span.camera {
+      #servicos > #servicos__itens > .servicos__item > a > span.icon.icon--camera {
         width: 70px;
         height: 52px;
         background-position-x: -5px;
         background-position-y: -5px;
         top: 49px; }
-      #servicos > #servicos__itens > .servicos__item > a > span.image {
+      #servicos > #servicos__itens > .servicos__item > a > span.icon.icon--image {
         width: 70px;
         height: 66px;
         background-position-x: -5px;
         background-position-y: -289px;
         top: 42px; }
-      #servicos > #servicos__itens > .servicos__item > a > span.pc {
+      #servicos > #servicos__itens > .servicos__item > a > span.icon.icon--pc {
         width: 70px;
         height: 62px;
         background-position-x: -5px;
         background-position-y: -441px;
         top: 44px; }
-    #servicos > #servicos__itens > .servicos__item > a:hover > span {
+    #servicos > #servicos__itens > .servicos__item > a:hover > span.icon {
       top: 20px !important;
       transition: top 0.5s linear; }
-      #servicos > #servicos__itens > .servicos__item > a:hover > span.config {
+      #servicos > #servicos__itens > .servicos__item > a:hover > span.icon.icon--config {
         width: 70px;
         height: 70px;
         background-position-x: -5px;
         background-position-y: -208px; }
-      #servicos > #servicos__itens > .servicos__item > a:hover > span.camera {
+      #servicos > #servicos__itens > .servicos__item > a:hover > span.icon.icon--camera {
         width: 70px;
         height: 52px;
         background-position-x: -5px;
         background-position-y: -67px; }
-      #servicos > #servicos__itens > .servicos__item > a:hover > span.image {
+      #servicos > #servicos__itens > .servicos__item > a:hover > span.icon.icon--image {
         width: 70px;
         height: 66px;
         background-position-x: -5px;
         background-position-y: -366px; }
-      #servicos > #servicos__itens > .servicos__item > a:hover > span.pc {
+      #servicos > #servicos__itens > .servicos__item > a:hover > span.icon.icon--pc {
         width: 70px;
         height: 62px;
         background-position-x: -5px;
