@@ -15,9 +15,11 @@
 				height: 150px
 				width: 100%
 				text-align: center
+
 				> span
 					display: inline-block
 					position: relative
+					transition: top 0.5s linear
 					@extend .sprite_servicos
 
 					&.config
@@ -32,6 +34,21 @@
 					&.pc
 						+sprite-define(70px, 62px, -5px, -441px)
 						top: (150px-62px)/2
+
+				&:hover
+					> span
+						top: 20px !important
+						transition: top 0.5s linear
+
+						&.config
+							+sprite-define(70px, 70px, -5px, -208px)
+						&.camera
+							+sprite-define(70px, 52px, -5px, -67px)
+						&.image
+							+sprite-define(70px, 66px, -5px, -366px)
+						&.pc
+							+sprite-define(70px, 62px, -5px, -513px)
+
 
 			&:hover
 				background-color: $heading_tarja_color

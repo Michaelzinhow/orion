@@ -175,7 +175,8 @@ body > #navegacao {
     text-align: center; }
     #servicos > #servicos__itens > .servicos__item > a > span {
       display: inline-block;
-      position: relative; }
+      position: relative;
+      transition: top 0.5s linear; }
       #servicos > #servicos__itens > .servicos__item > a > span.config {
         width: 70px;
         height: 70px;
@@ -200,6 +201,29 @@ body > #navegacao {
         background-position-x: -5px;
         background-position-y: -441px;
         top: 44px; }
+    #servicos > #servicos__itens > .servicos__item > a:hover > span {
+      top: 20px !important;
+      transition: top 0.5s linear; }
+      #servicos > #servicos__itens > .servicos__item > a:hover > span.config {
+        width: 70px;
+        height: 70px;
+        background-position-x: -5px;
+        background-position-y: -208px; }
+      #servicos > #servicos__itens > .servicos__item > a:hover > span.camera {
+        width: 70px;
+        height: 52px;
+        background-position-x: -5px;
+        background-position-y: -67px; }
+      #servicos > #servicos__itens > .servicos__item > a:hover > span.image {
+        width: 70px;
+        height: 66px;
+        background-position-x: -5px;
+        background-position-y: -366px; }
+      #servicos > #servicos__itens > .servicos__item > a:hover > span.pc {
+        width: 70px;
+        height: 62px;
+        background-position-x: -5px;
+        background-position-y: -513px; }
   #servicos > #servicos__itens > .servicos__item:hover {
     background-color: #D0161A; }
   #servicos > #servicos__itens > .servicos__item, #servicos > #servicos__itens > .servicos__item:hover {
