@@ -99,7 +99,7 @@ body > #navegacao {
           background: #882022; }
         body > #navegacao > .container > #navegacao__content .navbar .navbar-collapse > ul.navbar-nav > li a {
           color: #ffffff;
-          font: bold 16px "Oxygen"; }
+          font: normal 16px "Oxygen"; }
           body > #navegacao > .container > #navegacao__content .navbar .navbar-collapse > ul.navbar-nav > li a:hover {
             background: #882022; }
 
