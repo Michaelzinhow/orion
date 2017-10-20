@@ -37,6 +37,10 @@ a {
       top: 0;
       left: 0; }
 
+.sprite_servicos, #servicos > #servicos__itens > .servicos__item > a > span {
+  background-image: url("../images/sprites-servicos.png");
+  background-repeat: no-repeat; }
+
 body > header {
   padding: 25px 0; }
   body > header > .content > .logo-container {
@@ -135,5 +139,70 @@ body > #navegacao {
     display: block;
     width: 100%;
     height: auto; }
+
+#servicos > #servicos__itens > .servicos__item {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  cursor: pointer;
+  min-height: 150px;
+  background-color: #CCCCCC;
+  background-clip: content-box;
+  margin-bottom: 30px; }
+  @media (min-width: 768px) {
+    #servicos > #servicos__itens > .servicos__item {
+      float: left;
+      width: 50%; } }
+  @media (min-width: 992px) {
+    #servicos > #servicos__itens > .servicos__item {
+      float: left;
+      width: 25%; } }
+  #servicos > #servicos__itens > .servicos__item > a {
+    display: block;
+    height: 150px;
+    width: 100%;
+    text-align: center; }
+    #servicos > #servicos__itens > .servicos__item > a > span {
+      display: inline-block;
+      position: relative; }
+      #servicos > #servicos__itens > .servicos__item > a > span.config {
+        width: 70px;
+        height: 70px;
+        background-position-x: -5px;
+        background-position-y: -129px;
+        top: 40px; }
+      #servicos > #servicos__itens > .servicos__item > a > span.camera {
+        width: 70px;
+        height: 52px;
+        background-position-x: -5px;
+        background-position-y: -5px;
+        top: 49px; }
+      #servicos > #servicos__itens > .servicos__item > a > span.image {
+        width: 70px;
+        height: 66px;
+        background-position-x: -5px;
+        background-position-y: -289px;
+        top: 42px; }
+      #servicos > #servicos__itens > .servicos__item > a > span.pc {
+        width: 70px;
+        height: 62px;
+        background-position-x: -5px;
+        background-position-y: -441px;
+        top: 44px; }
+  #servicos > #servicos__itens > .servicos__item:hover {
+    background-color: #D0161A; }
+  #servicos > #servicos__itens > .servicos__item, #servicos > #servicos__itens > .servicos__item:hover {
+    transition: all 0.5s linear; }
 
 /*# sourceMappingURL=style.css.map */
