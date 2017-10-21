@@ -13,37 +13,33 @@ a {
     clear: both; }
 
 .container .heading,
-.container .widget {
+.container .widget > .widget__title {
+  margin: 0 0 30px;
+  font: bold 18px "Oxygen";
+  color: #484848;
+  position: relative;
+  line-height: 30px;
+  text-indent: 14px; }
+  .container .heading > span,
+  .container .widget > .widget__title > span {
+    display: inline-block;
+    width: 8px;
+    height: 30px;
+    background: #D0161A;
+    position: absolute;
+    top: 0;
+    left: 15px; }
+.container .heading {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px; }
   @media (min-width: 992px) {
-    .container .heading,
-    .container .widget {
+    .container .heading {
       float: left;
       width: 100%; } }
-  .container .heading > h2,
-  .container .heading > h3,
-  .container .widget > h2,
-  .container .widget > h3 {
-    margin: 0 0 30px;
-    font: bold 18px "Oxygen";
-    color: #484848;
-    position: relative;
-    line-height: 30px;
-    text-indent: 14px; }
-    .container .heading > h2 > span,
-    .container .heading > h3 > span,
-    .container .widget > h2 > span,
-    .container .widget > h3 > span {
-      display: inline-block;
-      width: 8px;
-      height: 30px;
-      background: #D0161A;
-      position: absolute;
-      top: 0;
-      left: 0; }
+.container .widget > .widget__title span {
+  left: 0; }
 
 .sprite_servicos, #servicos > #servicos__itens > .servicos__item > a > span.icon {
   background-image: url("../images/sprites-servicos.png");
