@@ -391,4 +391,40 @@ body > #navegacao {
     background: #444444;
     margin-bottom: 30px; }
 
+body > footer {
+  background: #333;
+  padding: 20px 0 95px; }
+  body > footer #footer-sidebar > .footer-widget {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    @media (min-width: 768px) {
+      body > footer #footer-sidebar > .footer-widget {
+        float: left;
+        width: 33.3333333333%; } }
+    @media (min-width: 992px) {
+      body > footer #footer-sidebar > .footer-widget {
+        float: left;
+        width: 33.3333333333%; } }
+    body > footer #footer-sidebar > .footer-widget p {
+      color: #777;
+      font: bold 15px "Oxygen"; }
+    body > footer #footer-sidebar > .footer-widget.footer-widget--about a {
+      display: block;
+      width: 50%; }
+    body > footer #footer-sidebar > .footer-widget.footer-widget--about p {
+      width: 100%;
+      margin: 20px 0 0; }
+
 /*# sourceMappingURL=style.css.map */

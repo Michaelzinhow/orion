@@ -1,0 +1,28 @@
+body
+	> footer
+		background: #333
+		padding: 20px 0 95px
+		#footer-sidebar
+			> .footer-widget
+				+make-xs-column(12)
+				+make-sm-column(4)
+				+make-md-column(4)
+				> h4.widget__title
+					> span
+
+				
+
+				p
+					color: #777
+					font: bold 15px $font_main
+
+				&.footer-widget--about
+					a
+						display: block
+						width: 50%
+					p
+						width: 100%
+						margin: 20px 0 0
+
+
+
