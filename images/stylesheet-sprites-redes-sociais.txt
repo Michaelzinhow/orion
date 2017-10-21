@@ -1,0 +1,101 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-blog_active {
+    width: 33px;
+    height: 33px;
+    background-position: -5px -5px;
+}
+
+.sprite-blog_dark {
+    width: 33px;
+    height: 33px;
+    background-position: -5px -48px;
+}
+
+.sprite-contato_active {
+    width: 33px;
+    height: 33px;
+    background-position: -5px -91px;
+}
+
+.sprite-contato_dark {
+    width: 33px;
+    height: 33px;
+    background-position: -5px -134px;
+}
+
+.sprite-facebook_active {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -177px;
+}
+
+.sprite-facebook_dark {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -219px;
+}
+
+.sprite-home_active {
+    width: 33px;
+    height: 33px;
+    background-position: -5px -261px;
+}
+
+.sprite-home_dark {
+    width: 33px;
+    height: 33px;
+    background-position: -5px -304px;
+}
+
+.sprite-insta_active {
+    width: 33px;
+    height: 33px;
+    background-position: -5px -347px;
+}
+
+.sprite-insta_dark {
+    width: 33px;
+    height: 33px;
+    background-position: -5px -390px;
+}
+
+.sprite-produto_active {
+    width: 33px;
+    height: 33px;
+    background-position: -5px -433px;
+}
+
+.sprite-produto_dark {
+    width: 33px;
+    height: 33px;
+    background-position: -5px -476px;
+}
+
+.sprite-servico_active {
+    width: 33px;
+    height: 33px;
+    background-position: -5px -519px;
+}
+
+.sprite-servico_dark {
+    width: 33px;
+    height: 33px;
+    background-position: -5px -562px;
+}
+
+.sprite-whatsapp_active {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -605px;
+}
+
+.sprite-whatsapp_dark {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -647px;
+}

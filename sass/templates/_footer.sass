@@ -1,7 +1,9 @@
 body
 	> footer
 		background: #333
-		padding: 20px 0 95px
+		padding: 20px 0 0
+		> .container
+			padding-bottom: 95px
 		#footer-sidebar
 			> .footer-widget
 				+make-xs-column(12)
@@ -47,6 +49,70 @@ body
 					p
 						width: 100%
 						margin: 20px 0 0
+
+		> #redes-sociais
+			background: #999
+			padding: 10px 0
+
+			> p
+				text-align: center
+
+			#redes-sociais__container
+				+make-md-column(12)
+
+				> ul#redes-sociais__icons
+					float: right
+
+					> li
+						display: inline
+						float: left
+						margin-right: 5px
+
+						> a.icon
+							display: block
+							@extend .sprite_redes_sociais
+
+							&,
+							&:hover
+								transition: all 0.2s linear
+
+							&.icon--home
+								+sprite-define(33px, 33px, -5px, -304px)
+								&:hover
+									background-position-y: -261px
+							&.icon--servico
+								+sprite-define(33px, 33px, -5px, -562px)
+								&:hover
+									background-position-y: -519px
+							&.icon--produto
+								+sprite-define(33px, 33px, -5px, -476px)
+								&:hover
+									background-position-y: -433px
+							&.icon--blog
+								+sprite-define(33px, 33px, -5px, -48px)
+								&:hover
+									background-position-y: -5px
+							&.icon--contato
+								+sprite-define(33px, 33px, -5px, -134px)
+								&:hover
+									background-position-y: -91px
+							&.icon--facebook
+								+sprite-define(33px, 33px, -5px, -219px)
+								&:hover
+									background-position-y: -176px
+							&.icon--instagram
+								+sprite-define(33px, 33px, -5px, -390px)
+								&:hover
+									background-position-y: -347px
+							&.icon--whats
+								+sprite-define(33px, 33px, -5px, -647px)
+								&:hover
+									background-position-y: -604px
+			
+			
+			> :last-child
+				margin-right: 0
+
 
 
 
