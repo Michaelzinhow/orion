@@ -417,6 +417,22 @@ body > footer {
       body > footer #footer-sidebar > .footer-widget {
         float: left;
         width: 33.3333333333%; } }
+    body > footer #footer-sidebar > .footer-widget > h4.widget__title {
+      position: relative;
+      margin: 28px 0;
+      height: 36px;
+      font: bold 16px "Oxygen";
+      color: #fff;
+      text-indent: 12px;
+      padding-top: 5px; }
+      body > footer #footer-sidebar > .footer-widget > h4.widget__title > span {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 4px;
+        height: 30px;
+        background: #C51C20; }
     body > footer #footer-sidebar > .footer-widget p {
       color: #777;
       font: bold 15px "Oxygen"; }
