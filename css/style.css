@@ -432,6 +432,16 @@ body > footer {
     body > footer #footer-sidebar > .footer-widget p {
       color: #777;
       font: bold 15px "Oxygen"; }
+    body > footer #footer-sidebar > .footer-widget > ul#fotos {
+      list-style: none;
+      padding: 0; }
+      body > footer #footer-sidebar > .footer-widget > ul#fotos > li {
+        float: left;
+        display: inline;
+        width: 30%;
+        margin: 0 5% 5% 0; }
+        body > footer #footer-sidebar > .footer-widget > ul#fotos > li:nth-child(3n) {
+          margin-right: 0; }
     body > footer #footer-sidebar > .footer-widget.footer-widget--about a {
       display: block;
       width: 50%; }
