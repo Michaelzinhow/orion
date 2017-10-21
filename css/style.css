@@ -12,23 +12,31 @@ a {
   .content:after {
     clear: both; }
 
-.container .heading {
+.container .heading,
+.container .widget {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px; }
   @media (min-width: 992px) {
-    .container .heading {
+    .container .heading,
+    .container .widget {
       float: left;
       width: 100%; } }
-  .container .heading > h2 {
+  .container .heading > h2,
+  .container .heading > h3,
+  .container .widget > h2,
+  .container .widget > h3 {
     margin: 0 0 30px;
     font: bold 18px "Oxygen";
     color: #484848;
     position: relative;
     line-height: 30px;
     text-indent: 14px; }
-    .container .heading > h2 > span {
+    .container .heading > h2 > span,
+    .container .heading > h3 > span,
+    .container .widget > h2 > span,
+    .container .widget > h3 > span {
       display: inline-block;
       width: 8px;
       height: 30px;
@@ -296,5 +304,91 @@ body > #navegacao {
       color: #fff;
       text-decoration: none;
       transition: all 0.3s linear; }
+
+#blog #posts {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 768px) {
+    #blog #posts {
+      float: left;
+      width: 58.3333333333%; } }
+  @media (min-width: 992px) {
+    #blog #posts {
+      float: left;
+      width: 75%; } }
+  #blog #posts > .posts__items {
+    margin-bottom: 30px; }
+    #blog #posts > .posts__items > h2 {
+      font: 300 26px "Oxygen";
+      color: #C51B1F;
+      margin: 15px 0 5px; }
+    #blog #posts > .posts__items > p {
+      font: 300 16px "Oxygen";
+      color: #666666;
+      margin-bottom: 15px;
+      line-height: 1.5; }
+    #blog #posts > .posts__items > a.ready-more {
+      display: block;
+      float: right;
+      text-decoration: none;
+      width: 140px;
+      padding: 10px 0;
+      background-color: #C51C20;
+      text-align: center;
+      font: 300 15px "Oxygen";
+      color: #fff;
+      border: 1px solid #C51C20;
+      transition: all 0.2s linear; }
+      #blog #posts > .posts__items > a.ready-more:hover {
+        background: #fff;
+        color: #C51C20;
+        text-decoration: none;
+        transition: all 0.3s linear; }
+#blog #sidebar {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 768px) {
+    #blog #sidebar {
+      float: left;
+      width: 41.6666666667%; } }
+  @media (min-width: 992px) {
+    #blog #sidebar {
+      float: left;
+      width: 25%; } }
+  #blog #sidebar > .widget > h3.widget__title {
+    font-size: 16px;
+    text-indent: 9px;
+    margin-bottom: 13px; }
+    #blog #sidebar > .widget > h3.widget__title > span {
+      width: 4px; }
+  #blog #sidebar > .widget > .widget__body {
+    width: 100%;
+    min-height: 220px;
+    background: #444444;
+    margin-bottom: 30px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,51 @@
+#blog
+	#posts
+		+make-xs-column(12)
+		+make-sm-column(7)
+		+make-md-column(9)
+		> .posts__items
+			margin-bottom: 30px
+			> h2
+				font: 300 26px $font_main
+				color: #C51B1F
+				margin: 15px 0 5px
+			> p
+				font: 300 16px $font_main
+				color: #666666
+				margin-bottom: 15px
+				line-height: 1.5
+			> a.ready-more
+				display: block
+				float: right
+				text-decoration: none
+				width: 140px
+				padding: 10px 0
+				background-color: #C51C20
+				text-align: center
+				font: 300 15px $font_main
+				color: #fff
+				border: 1px solid #C51C20
+				transition: all 0.2s linear
+				&:hover
+					background: #fff
+					color: #C51C20
+					text-decoration: none
+					transition: all 0.3s linear
+	#sidebar
+		+make-xs-column(12)
+		+make-sm-column(5)
+		+make-md-column(3)
+		> .widget
+			> h3.widget__title
+				font-size: 16px
+				text-indent: 9px
+				margin-bottom: 13px
+				> span
+					width: 4px
+
+			> .widget__body
+				width: 100%
+				min-height: 220px
+				background: #444444
+				margin-bottom: 30px
+
