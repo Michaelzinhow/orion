@@ -57,7 +57,8 @@
 					        <li><a href="#servicos">Serviços <i class="fa fa-wrench"></i></a></li>
 					        <li><a href="#produtos">Produtos <i class="fa fa-briefcase"></i></a></li>
 					        <li><a href="#blog">Blog <i class="fa fa-chain"></i></a></li>
-					        <li><a href="#contato">Contato <i class="fa fa- fa-comments-o"></i></a></li>
+					        <li><a href="#about">Sobre Nós <i class="fa fa-eye"></i></a></li>
+					        <li><a href="#" role="buttom" data-toggle="modal" data-target="#myModal">Contato <i class="fa fa- fa-comments-o"></i></a></li>
 					      </ul>
 					    </div><!-- /.navbar-collapse -->
 					</nav>
@@ -225,11 +226,63 @@
 	</section><!-- Fim da class container -->
 	<!-- Aqui termina a sessão dos Blog -->
 
-	<footer>
+	<!-- Aqui começa a sessão dos contatos -->	
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="myModal">Contato</h4>
+	      </div>
+	      <div class="modal-body">
+	        <form action="" method="POST">
+	          <div class="form-group">
+	            <label class="control-label">Nome:</label>
+	            <input type="text" class="form-control" name="nome" placeholder="Digite seu nome...">
+	          </div>
+				
+			  <div class="form-group">
+	            <label class="control-label">Telefone:</label>
+	            <input type="tel" class="form-control" name="telefone" onkeyup="mascara( this, mtel );" maxlength="15" placeholder="(xx) xxxxx-xxxx">
+	          </div>
+				
+			  <div class="form-group">
+	            <label class="control-label">E-mail:</label>
+	            <input type="email" class="form-control" name="email" placeholder="Digite seu melhor e-mail...">
+	          </div>
+				
+			  <div class="form-group">
+	            <label class="control-label">Assunto:</label>
+	            <input type="text" class="form-control" name="assunto" placeholder="Digite o assunto...">
+	          </div>
+
+	          <div class="form-group">
+	            <label class="control-label">Menssagem:</label>
+	            <textarea class="form-control" name="mensagem" placeholder="Digite sua mensagem..."></textarea>
+	          </div>
+	        </form>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+	        <button type="button" class="btn btn-primary">Enviar Mensagem</button>
+	      </div>
+	    </div>
+	  </div>
+	</div><!-- Aqui termona a sessão dos contatos -->
+
+	<div class="container">
+		<header class="content">
+		<h2 class="heading">
+			<span></span>
+			Sobre Nós
+		</h2>
+	</header><!-- Fim da class content -->
+	</div>
+	<footer id="about">
 		<div class="container">
 			<div class="content" id="footer-sidebar">
 				<div class="footer-widget footer-widget--about">
-					<a href="#" title="Logo Rodapé">
+					<a href="index.html" title="Logo Rodapé">
 						<img src="images/logorodape.png" class="img-responsive" alt="Logo do Rodapé" title="Logo do Rodapé">
 					</a>
 					<p>
